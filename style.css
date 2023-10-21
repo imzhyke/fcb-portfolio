@@ -3,13 +3,16 @@
 *{
     font-family: "Roboto", sans-serif;
 }
-h1,p{
+h1,p,a{
     font-family: "Montserrat", sans-serif;
     color: white;
 }
+img{
+    border-radius: 20%;
+}
 #profile{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     border-style: solid;
     border-color: #09128a85;
@@ -21,6 +24,7 @@ body{
     background-attachment: fixed;
     background-size: contain;
 }
+
 #landing{
     height: 80vh;
     display: flex;
